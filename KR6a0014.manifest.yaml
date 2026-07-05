@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0014_000.yaml, hash: 'sha256:69e9683830cdfcfac025da61145a48cbe1909fccb6f611042653ec576d55cb58'}
-  - {seq: 1, filename: KR6a0014_001.yaml, hash: 'sha256:89ec339e9707e8be4f1e09d17b17a7ad55e14ebfbfec956d40f76b896603b5b5'}
+  - {seq: 1, filename: KR6a0014_001.yaml, hash: 'sha256:5e5a034fc76342191c9aa6ab130017e963a21c0f02e49dc440fde8087397314c'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6a0014_001.markers.yaml, hash: 'sha256:b4d1d87f3d238f8c5996d8c047e700a5ce2c64b1ade64b8d395e5ede34402c52'}
+  - {seq: 0, role: markers, filename: assets/KR6a0014_000.markers.yaml, hash: 'sha256:c1cdc02b1b0c1257de513571a74a138c0fb7b90ab775591a9e35df5be364269a'}
+  - {seq: 1, role: markers, filename: assets/KR6a0014_001.markers.yaml, hash: 'sha256:04437a4dc89a04d24516e17ea87f76339aade5210afd872ad3c42ff11bc7bb7f'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 佛說人本欲生經
   type: juan
   level: 1
-hash: sha256:fd872776a08775cf4e912e9e5c4fc825734ecb4f2a5881871161669fde3c13cf
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:1c49f3ec201def92766e8298049951d59c38ea2a68b17f6e8a526922402f186b
