@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6a0014/v1
 canonical_location: https://kanripo.org/bkk/KR6a0014/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 人本欲生經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0014_000.yaml, hash: 'sha256:69e9683830cdfcfac025da61145a48cbe1909fccb6f611042653ec576d55cb58'}
-  - {seq: 1, filename: KR6a0014_001.yaml, hash: 'sha256:5e5a034fc76342191c9aa6ab130017e963a21c0f02e49dc440fde8087397314c'}
+  - {seq: 1, filename: KR6a0014_001.yaml, hash: 'sha256:05d7be5f8564e65684397011d122e0bd8ca42804a992badaa52d3646ccdd7ae9'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6a0014_000.markers.yaml, hash: 'sha256:c1cdc02b1b0c1257de513571a74a138c0fb7b90ab775591a9e35df5be364269a'}
-  - {seq: 1, role: markers, filename: assets/KR6a0014_001.markers.yaml, hash: 'sha256:04437a4dc89a04d24516e17ea87f76339aade5210afd872ad3c42ff11bc7bb7f'}
+  - {seq: 1, role: markers, filename: assets/KR6a0014_001.markers.yaml, hash: 'sha256:2f4c5ef56340369f116f157d747143f73d86154bf51585a4b4c54922709bb6d4'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 佛說人本欲生經
   type: juan
   level: 1
-hash: sha256:1c49f3ec201def92766e8298049951d59c38ea2a68b17f6e8a526922402f186b
+hash: sha256:3e57278d05402b67c5f0c2669ff0a1ae72cb26adaf77ce2ac50dc1c878fd1467
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
